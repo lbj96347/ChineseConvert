@@ -15,9 +15,9 @@
 		6674B1B11ADCF50000BCD5BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6674B1AF1ADCF50000BCD5BB /* LaunchScreen.xib */; };
 		6674B1BD1ADCF50000BCD5BB /* ChineseConvertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6674B1BC1ADCF50000BCD5BB /* ChineseConvertTests.m */; };
 		6674B1E61ADCF7A000BCD5BB /* ChineseConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 6674B1E11ADCF7A000BCD5BB /* ChineseConvert.m */; };
-		6674B1E71ADCF7A000BCD5BB /* big5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6674B1E31ADCF7A000BCD5BB /* big5.txt */; };
-		6674B1E81ADCF7A000BCD5BB /* gb.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6674B1E41ADCF7A000BCD5BB /* gb.txt */; };
-		6674B1E91ADCF7A000BCD5BB /* split.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6674B1E51ADCF7A000BCD5BB /* split.txt */; };
+		6674B1F11ADD03E200BCD5BB /* big5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6674B1EE1ADD03E200BCD5BB /* big5.txt */; };
+		6674B1F21ADD03E200BCD5BB /* gb.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6674B1EF1ADD03E200BCD5BB /* gb.txt */; };
+		6674B1F31ADD03E200BCD5BB /* split.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6674B1F01ADD03E200BCD5BB /* split.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,9 +46,9 @@
 		6674B1BC1ADCF50000BCD5BB /* ChineseConvertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChineseConvertTests.m; sourceTree = "<group>"; };
 		6674B1E01ADCF7A000BCD5BB /* ChineseConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseConvert.h; sourceTree = "<group>"; };
 		6674B1E11ADCF7A000BCD5BB /* ChineseConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseConvert.m; sourceTree = "<group>"; };
-		6674B1E31ADCF7A000BCD5BB /* big5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = big5.txt; sourceTree = "<group>"; };
-		6674B1E41ADCF7A000BCD5BB /* gb.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gb.txt; sourceTree = "<group>"; };
-		6674B1E51ADCF7A000BCD5BB /* split.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = split.txt; sourceTree = "<group>"; };
+		6674B1EE1ADD03E200BCD5BB /* big5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = big5.txt; sourceTree = "<group>"; };
+		6674B1EF1ADD03E200BCD5BB /* gb.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gb.txt; sourceTree = "<group>"; };
+		6674B1F01ADD03E200BCD5BB /* split.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = split.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +90,8 @@
 		6674B19F1ADCF50000BCD5BB /* ChineseConvert */ = {
 			isa = PBXGroup;
 			children = (
+				6674B1ED1ADD03E200BCD5BB /* TextResources */,
 				6674B1DF1ADCF7A000BCD5BB /* ConvertCore */,
-				6674B1E21ADCF7A000BCD5BB /* TextReources */,
 				6674B1A41ADCF50000BCD5BB /* AppDelegate.h */,
 				6674B1A51ADCF50000BCD5BB /* AppDelegate.m */,
 				6674B1A71ADCF50000BCD5BB /* ViewController.h */,
@@ -140,15 +140,15 @@
 			path = ../../../ConvertCore;
 			sourceTree = "<group>";
 		};
-		6674B1E21ADCF7A000BCD5BB /* TextReources */ = {
+		6674B1ED1ADD03E200BCD5BB /* TextResources */ = {
 			isa = PBXGroup;
 			children = (
-				6674B1E31ADCF7A000BCD5BB /* big5.txt */,
-				6674B1E41ADCF7A000BCD5BB /* gb.txt */,
-				6674B1E51ADCF7A000BCD5BB /* split.txt */,
+				6674B1EE1ADD03E200BCD5BB /* big5.txt */,
+				6674B1EF1ADD03E200BCD5BB /* gb.txt */,
+				6674B1F01ADD03E200BCD5BB /* split.txt */,
 			);
-			name = TextReources;
-			path = ../../../TextReources;
+			name = TextResources;
+			path = ../../../TextResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,10 +231,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6674B1E81ADCF7A000BCD5BB /* gb.txt in Resources */,
-				6674B1E91ADCF7A000BCD5BB /* split.txt in Resources */,
+				6674B1F21ADD03E200BCD5BB /* gb.txt in Resources */,
+				6674B1F31ADD03E200BCD5BB /* split.txt in Resources */,
 				6674B1AC1ADCF50000BCD5BB /* Main.storyboard in Resources */,
-				6674B1E71ADCF7A000BCD5BB /* big5.txt in Resources */,
+				6674B1F11ADD03E200BCD5BB /* big5.txt in Resources */,
 				6674B1B11ADCF50000BCD5BB /* LaunchScreen.xib in Resources */,
 				6674B1AE1ADCF50000BCD5BB /* Images.xcassets in Resources */,
 			);
@@ -454,6 +454,7 @@
 				6674B1C21ADCF50000BCD5BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6674B1C31ADCF50000BCD5BB /* Build configuration list for PBXNativeTarget "ChineseConvertTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +463,7 @@
 				6674B1C51ADCF50000BCD5BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
