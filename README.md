@@ -20,7 +20,7 @@ USAGE
 
     import "ChineseConvert.h"
 
-    ChineseConvert * convertManager = [[ChineseConvert alloc]init];
+    ConvertGB_BIG * convertManager = [[ConvertGB_BIG alloc]init];
 
     //from simple Chinese to traditional Chinese 
 
