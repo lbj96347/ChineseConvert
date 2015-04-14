@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://yongjia.fm/"
 
   s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   s.author             = { "lbj96347" => "cashlee96347@gmail.com" }
