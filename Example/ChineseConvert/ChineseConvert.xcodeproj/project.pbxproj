@@ -14,7 +14,7 @@
 		6674B1AE1ADCF50000BCD5BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6674B1AD1ADCF50000BCD5BB /* Images.xcassets */; };
 		6674B1B11ADCF50000BCD5BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6674B1AF1ADCF50000BCD5BB /* LaunchScreen.xib */; };
 		6674B1BD1ADCF50000BCD5BB /* ChineseConvertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6674B1BC1ADCF50000BCD5BB /* ChineseConvertTests.m */; };
-		6674B1E61ADCF7A000BCD5BB /* convertGB_BIG.m in Sources */ = {isa = PBXBuildFile; fileRef = 6674B1E11ADCF7A000BCD5BB /* convertGB_BIG.m */; };
+		6674B1E61ADCF7A000BCD5BB /* ChineseConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 6674B1E11ADCF7A000BCD5BB /* ChineseConvert.m */; };
 		6674B1E71ADCF7A000BCD5BB /* big5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6674B1E31ADCF7A000BCD5BB /* big5.txt */; };
 		6674B1E81ADCF7A000BCD5BB /* gb.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6674B1E41ADCF7A000BCD5BB /* gb.txt */; };
 		6674B1E91ADCF7A000BCD5BB /* split.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6674B1E51ADCF7A000BCD5BB /* split.txt */; };
@@ -44,8 +44,8 @@
 		6674B1B61ADCF50000BCD5BB /* ChineseConvertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChineseConvertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6674B1BB1ADCF50000BCD5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6674B1BC1ADCF50000BCD5BB /* ChineseConvertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChineseConvertTests.m; sourceTree = "<group>"; };
-		6674B1E01ADCF7A000BCD5BB /* convertGB_BIG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convertGB_BIG.h; sourceTree = "<group>"; };
-		6674B1E11ADCF7A000BCD5BB /* convertGB_BIG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = convertGB_BIG.m; sourceTree = "<group>"; };
+		6674B1E01ADCF7A000BCD5BB /* ChineseConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseConvert.h; sourceTree = "<group>"; };
+		6674B1E11ADCF7A000BCD5BB /* ChineseConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseConvert.m; sourceTree = "<group>"; };
 		6674B1E31ADCF7A000BCD5BB /* big5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = big5.txt; sourceTree = "<group>"; };
 		6674B1E41ADCF7A000BCD5BB /* gb.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gb.txt; sourceTree = "<group>"; };
 		6674B1E51ADCF7A000BCD5BB /* split.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = split.txt; sourceTree = "<group>"; };
@@ -133,8 +133,8 @@
 		6674B1DF1ADCF7A000BCD5BB /* ConvertCore */ = {
 			isa = PBXGroup;
 			children = (
-				6674B1E01ADCF7A000BCD5BB /* convertGB_BIG.h */,
-				6674B1E11ADCF7A000BCD5BB /* convertGB_BIG.m */,
+				6674B1E01ADCF7A000BCD5BB /* ChineseConvert.h */,
+				6674B1E11ADCF7A000BCD5BB /* ChineseConvert.m */,
 			);
 			name = ConvertCore;
 			path = ../../../ConvertCore;
@@ -255,7 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6674B1A91ADCF50000BCD5BB /* ViewController.m in Sources */,
-				6674B1E61ADCF7A000BCD5BB /* convertGB_BIG.m in Sources */,
+				6674B1E61ADCF7A000BCD5BB /* ChineseConvert.m in Sources */,
 				6674B1A61ADCF50000BCD5BB /* AppDelegate.m in Sources */,
 				6674B1A31ADCF50000BCD5BB /* main.m in Sources */,
 			);

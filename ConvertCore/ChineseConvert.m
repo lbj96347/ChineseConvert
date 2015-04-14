@@ -5,7 +5,7 @@
 //  Copyright 2015 cashlee.info. All rights reserved.
 //
 
-#import "convertGB_BIG.h"
+#import "ChineseConvert.h"
 
 @implementation ConvertGB_BIG
 @synthesize string_GB = _string_GB;
