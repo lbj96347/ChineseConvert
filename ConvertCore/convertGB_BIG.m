@@ -7,7 +7,7 @@
 
 #import "convertGB_BIG.h"
 
-@implementation convertGB_BIG
+@implementation ConvertGB_BIG
 @synthesize string_GB = _string_GB;
 @synthesize string_BIG5 = _string_BIG5;
 
