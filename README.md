@@ -9,3 +9,23 @@ Chinese Convert offers converting traditional Chinese to simple Chinese or oppos
 * [convertManager big5ToGb:textString]  繁体转换简体 
 
 
+INSTALL
+=======
+
+pod 'ChineseConvert'
+
+
+USAGE
+=====
+
+    import "ChineseConvert.h"
+
+    ChineseConvert * convertManager = [[ChineseConvert alloc]init];
+
+    //from simple Chinese to traditional Chinese 
+
+    [convertManager gbToBig5:textString];
+
+    //from traditional Chinese to simple Chinese 
+
+    [convertManager big5ToGb:textString];
