@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
                    DESC
 
-  s.homepage     = "http://cashlee.info/"
+  s.homepage     = "http://yongjia.fm/"
 
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://github.com/ChineseConvert.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/lbj96347/ChineseConvert.git", :tag => "0.0.1" }
   s.source_files  = "Classes", "ConvertCore/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
