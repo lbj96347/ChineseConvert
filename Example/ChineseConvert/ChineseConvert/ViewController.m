@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "convertGB_BIG.h"
+#import "ChineseConvert.h"
 
 @interface ViewController ()
 
