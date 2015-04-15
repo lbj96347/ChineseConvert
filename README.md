@@ -18,14 +18,15 @@ pod 'ChineseConvert'
 USAGE
 =====
 
-    import "ChineseConvert.h"
 
-    ConvertGB_BIG * convertManager = [[ConvertGB_BIG alloc]init];
+        import "ChineseConvert.h"
 
-    //from simple Chinese to traditional Chinese 
+        ChineseConvert * convertManager = [[ChineseConvert alloc]init];
 
-    [convertManager gbToBig5:textString];
+        //from simple Chinese to traditional Chinese 
 
-    //from traditional Chinese to simple Chinese 
+        [convertManager gbToBig5:textString];
 
-    [convertManager big5ToGb:textString];
+        //from traditional Chinese to simple Chinese 
+
+        [convertManager big5ToGb:textString];
