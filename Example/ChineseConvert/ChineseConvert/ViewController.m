@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    ConvertGB_BIG * convertManager = [[ConvertGB_BIG alloc]init];
+    ChineseConvert * convertManager = [[ChineseConvert alloc]init];
     
     CGSize viewSize = self.view.frame.size;
     

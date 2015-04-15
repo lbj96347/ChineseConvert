@@ -15,9 +15,9 @@
 		6674B1B11ADCF50000BCD5BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6674B1AF1ADCF50000BCD5BB /* LaunchScreen.xib */; };
 		6674B1BD1ADCF50000BCD5BB /* ChineseConvertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6674B1BC1ADCF50000BCD5BB /* ChineseConvertTests.m */; };
 		6674B1E61ADCF7A000BCD5BB /* ChineseConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 6674B1E11ADCF7A000BCD5BB /* ChineseConvert.m */; };
-		6674B1F11ADD03E200BCD5BB /* big5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6674B1EE1ADD03E200BCD5BB /* big5.txt */; };
-		6674B1F21ADD03E200BCD5BB /* gb.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6674B1EF1ADD03E200BCD5BB /* gb.txt */; };
-		6674B1F31ADD03E200BCD5BB /* split.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6674B1F01ADD03E200BCD5BB /* split.txt */; };
+		6674B1F41ADE648500BCD5BB /* big5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6674B1EE1ADD03E200BCD5BB /* big5.txt */; };
+		6674B1F51ADE648500BCD5BB /* gb.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6674B1EF1ADD03E200BCD5BB /* gb.txt */; };
+		6674B1F61ADE648500BCD5BB /* split.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6674B1F01ADD03E200BCD5BB /* split.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -231,10 +231,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6674B1F21ADD03E200BCD5BB /* gb.txt in Resources */,
-				6674B1F31ADD03E200BCD5BB /* split.txt in Resources */,
+				6674B1F41ADE648500BCD5BB /* big5.txt in Resources */,
+				6674B1F51ADE648500BCD5BB /* gb.txt in Resources */,
+				6674B1F61ADE648500BCD5BB /* split.txt in Resources */,
 				6674B1AC1ADCF50000BCD5BB /* Main.storyboard in Resources */,
-				6674B1F11ADD03E200BCD5BB /* big5.txt in Resources */,
 				6674B1B11ADCF50000BCD5BB /* LaunchScreen.xib in Resources */,
 				6674B1AE1ADCF50000BCD5BB /* Images.xcassets in Resources */,
 			);

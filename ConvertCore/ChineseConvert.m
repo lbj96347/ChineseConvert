@@ -7,7 +7,7 @@
 
 #import "ChineseConvert.h"
 
-@implementation ConvertGB_BIG
+@implementation ChineseConvert
 @synthesize string_GB = _string_GB;
 @synthesize string_BIG5 = _string_BIG5;
 

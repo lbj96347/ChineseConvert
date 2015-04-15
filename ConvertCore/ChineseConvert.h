@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface ConvertGB_BIG : NSObject {
+@interface ChineseConvert : NSObject {
 	NSString*	_string_GB;
 	NSString*	_string_BIG5;
 }
